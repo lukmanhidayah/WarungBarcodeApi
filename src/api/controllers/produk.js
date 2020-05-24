@@ -12,7 +12,8 @@ exports.get_all_produk = (req, res, next) => {
             if (error) {
                 res.status(500).json({ error: error })
             } else {
-
+                // let limit = 6;
+                // let rangeLimit = limit+
                 const response = {
                     status: true,
                     message: "Data Produk Ditemukan",
