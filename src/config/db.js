@@ -4,7 +4,8 @@ const db_config = {
   host: "localhost",
   user: "root",
   password: "",
-  database: "warung_barcode"
+  database: "warung_barcode",
+  multipleStatements: true
 };
 
 var connection;
